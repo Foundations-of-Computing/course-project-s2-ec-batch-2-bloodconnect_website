@@ -1,0 +1,96 @@
+   <script>
+        function checkSelection() {
+            let dropdown = document.getElementById("Location");
+            let blood   = document.getElementById("BloodGroup");
+            let valuechosen=blood.value;
+            let selectedValue = dropdown.value;
+
+            if (selectedValue === "Sreekaryam" && valuechosen==="A+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1O5E0PrDaJwpG6w301snl5dgzXTmnGaEX"; 
+            } else if (selectedValue === "Sreekaryam" && valuechosen==="A-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1WCOoB0OBpRfjv7ALKPdlt65gm-JVRMIn"; 
+            } else if (selectedValue === "Sreekaryam" && valuechosen==="O+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1zu7wJpcxVtUuH2fpidhd2tqpwjoNZ4rr"; 
+            } else if (selectedValue === "Sreekaryam" && valuechosen==="O-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=11dZcxbcj0k5T-akXJtKxMKo6WmbHXLPs";
+            } else if (selectedValue === "Sreekaryam" && valuechosen==="B+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1gQI6DYBMW_wPyW6Srhfqb7_GHPTn2Z9h"; 
+
+            } else if (selectedValue === "Sreekaryam" && valuechosen==="B-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1WCOoB0OBpRfjv7ALKPdlt65gm-JVRMIn"; 
+            } else if (selectedValue === "Sreekaryam" && valuechosen==="AB+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1zu7wJpcxVtUuH2fpidhd2tqpwjoNZ4rr"; 
+            } else if (selectedValue === "Sreekaryam" && valuechosen==="AB-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=11dZcxbcj0k5T-akXJtKxMKo6WmbHXLPs";
+            } else if (selectedValue === "Ponmudi" && valuechosen==="A+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1O5E0PrDaJwpG6w301snl5dgzXTmnGaEX"; 
+            } else if (selectedValue === "Ponmudi" && valuechosen==="A-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1WCOoB0OBpRfjv7ALKPdlt65gm-JVRMIn"; 
+            } else if (selectedValue === "Ponmudi" && valuechosen==="O+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1zu7wJpcxVtUuH2fpidhd2tqpwjoNZ4rr"; 
+            } else if (selectedValue === "Ponmudi" && valuechosen==="O-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=11dZcxbcj0k5T-akXJtKxMKo6WmbHXLPs";
+            } else if (selectedValue === "Ponmudi" && valuechosen==="B+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1gQI6DYBMW_wPyW6Srhfqb7_GHPTn2Z9h"; 
+            } else if (selectedValue === "Ponmudi" && valuechosen==="B-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1WCOoB0OBpRfjv7ALKPdlt65gm-JVRMIn"; 
+            } else if (selectedValue === "Ponmudi" && valuechosen==="AB+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1zu7wJpcxVtUuH2fpidhd2tqpwjoNZ4rr"; 
+            } else if (selectedValue === "Ponmudi" && valuechosen==="AB-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=11dZcxbcj0k5T-akXJtKxMKo6WmbHXLPs";
+            } else if (selectedValue === "Kovalam" && valuechosen==="A+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1O5E0PrDaJwpG6w301snl5dgzXTmnGaEX"; 
+            } else if (selectedValue === "Kovalam" && valuechosen==="A-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1WCOoB0OBpRfjv7ALKPdlt65gm-JVRMIn"; 
+            } else if (selectedValue === "Kovalam" && valuechosen==="O+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1zu7wJpcxVtUuH2fpidhd2tqpwjoNZ4rr"; 
+            } else if (selectedValue === "Kovalam" && valuechosen==="O-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=11dZcxbcj0k5T-akXJtKxMKo6WmbHXLPs";
+            } else if (selectedValue === "Kovalam" && valuechosen==="B+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1gQI6DYBMW_wPyW6Srhfqb7_GHPTn2Z9h"; 
+            } else if (selectedValue === "Kovalam" && valuechosen==="B-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1WCOoB0OBpRfjv7ALKPdlt65gm-JVRMIn"; 
+            } else if (selectedValue === "Kovalam" && valuechosen==="AB+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1zu7wJpcxVtUuH2fpidhd2tqpwjoNZ4rr"; 
+            } else if (selectedValue === "Kovalam" && valuechosen==="AB-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=11dZcxbcj0k5T-akXJtKxMKo6WmbHXLPs";
+            } else if (selectedValue === "Vinzhinjam" && valuechosen==="A+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1O5E0PrDaJwpG6w301snl5dgzXTmnGaEX"; 
+            } else if (selectedValue === "Vinzhinjam" && valuechosen==="A-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1WCOoB0OBpRfjv7ALKPdlt65gm-JVRMIn"; 
+            } else if (selectedValue === "Vinzhinjam" && valuechosen==="O+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1zu7wJpcxVtUuH2fpidhd2tqpwjoNZ4rr"; 
+            } else if (selectedValue === "Vinzhinjam" && valuechosen==="O-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=11dZcxbcj0k5T-akXJtKxMKo6WmbHXLPs";
+            } else if (selectedValue === "Vinzhinjam" && valuechosen==="B+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1gQI6DYBMW_wPyW6Srhfqb7_GHPTn2Z9h"; 
+            } else if (selectedValue === "Vinzhinjam" && valuechosen==="B-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1WCOoB0OBpRfjv7ALKPdlt65gm-JVRMIn"; 
+            } else if (selectedValue === "Vinzhinjam" && valuechosen==="AB+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1zu7wJpcxVtUuH2fpidhd2tqpwjoNZ4rr"; 
+            } else if (selectedValue === "Vinzhinjam" && valuechosen==="AB-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=11dZcxbcj0k5T-akXJtKxMKo6WmbHXLPs";
+            } else if (selectedValue === "Varkala" && valuechosen==="A+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1O5E0PrDaJwpG6w301snl5dgzXTmnGaEX"; 
+            } else if (selectedValue === "Varkala" && valuechosen==="A-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1WCOoB0OBpRfjv7ALKPdlt65gm-JVRMIn"; 
+            } else if (selectedValue === "Varkala" && valuechosen==="O+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1zu7wJpcxVtUuH2fpidhd2tqpwjoNZ4rr"; 
+            } else if (selectedValue === "Varkala" && valuechosen==="O-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=11dZcxbcj0k5T-akXJtKxMKo6WmbHXLPs";
+            } else if (selectedValue === "Varkala" && valuechosen==="B+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1gQI6DYBMW_wPyW6Srhfqb7_GHPTn2Z9h"; 
+            } else if (selectedValue === "Varkala" && valuechosen==="B-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1WCOoB0OBpRfjv7ALKPdlt65gm-JVRMIn"; 
+            } else if (selectedValue === "Varkala" && valuechosen==="AB+") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=1zu7wJpcxVtUuH2fpidhd2tqpwjoNZ4rr"; 
+            } else if (selectedValue === "Varkala" && valuechosen==="AB-") {
+                window.location.href = "https://drive.google.com/uc?export=view&id=11dZcxbcj0k5T-akXJtKxMKo6WmbHXLPs";
+            } 
+ 
+
+
+
+            return false; 
+        }
+    </script>
